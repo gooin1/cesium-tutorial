@@ -20,9 +20,11 @@ npm start
 > 
 > 鼠标事件
 
+## 修改方法
 编辑 `Source/App.js` 即可
 
-[gif]()
+--------------
+![gif](http://p198u5nbd.bkt.clouddn.com/cesium.gif)
 
 
 What's here?
