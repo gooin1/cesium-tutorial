@@ -1,42 +1,29 @@
 # cesium-workshop
 
-<p align="center">
-    <a href="http://cesiumjs.org/">
-        <img src="https://github.com/AnalyticalGraphicsInc/cesium/wiki/logos/Cesium_Logo_Color.jpg" width="50%" />
-    </a>
-</p>
-
-A simple JavaScript app showcasing some features of [Cesium](http://cesiumjs.org/), the open-source WebGL virtual globe and map engine. Learn more about this code by reading our [associated tutorial](https://cesiumjs.org/tutorials/Cesium-Workshop/).
-
-**Cesium version**: [1.45](https://cesiumjs.org/downloads/).
-
-**License**: Apache 2.0.  Free for commercial and non-commercial use.  See [LICENSE.md](LICENSE.md).
-
-This application is intended to introduce the main features of Cesium in context, but it is by no means exhaustive. Feel free to fork and modify this example however you'd like.
-
-Local server
-------------
-
-This app comes with a simple server ([`server.js`](./server.js)), but can be served through any means.
-
-To use the packaged server:
-
-* Install [node.js](http://nodejs.org/)
-* From the `cesium-workshop` root directory, run
+Cesium 概览
 ```
-npm install
+npm intall
 npm start
 ```
+浏览 `http://localhost:8000/`
 
-Browse to `http://localhost:8080/`
+主要包含了：
+> 坐标系统
+> 
+> 相机控件
+> 
+> 时钟控件
+> 
+> 加载Kml、CZML、GeoJSON、3D模型
+> 
+> 设置3D瓦片样式
+> 
+> 鼠标事件
 
->Have python installed?  If so, from the `cesium-workshop` root directory run
->```
->python -m SimpleHTTPServer 8080
->```
->(Starting with Python 3, use `python -m http.server 8080`).
->
->Browse to `http://localhost:8080/`
+编辑 `Source/App.js` 即可
+
+
+
 
 What's here?
 ------------

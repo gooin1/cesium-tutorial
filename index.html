@@ -31,25 +31,41 @@
                 <label for="droneMode">Drone View</label>
             </div>
             <br>
-            <span><strong>3d Tile Styling</strong></span>
+            <span><strong>3d 瓦片样式</strong></span>
             <div class="nowrap">
                 <select id="tileStyle">
-                    <option value="none">None</option>
-                    <option value="height">Height</option>
-                    <option value="transparent">Transparent</option>
+                    <option value="none">无</option>
+                    <option value="height">按高度</option>
+                    <option value="transparent">透明</option>
                 </select>
             </div>
             <br>
-            <span><strong>Display Options</strong></span>
+            <span><strong>显示选项</strong></span>
             <div class="nowrap">
                 <input id="shadows" type="checkbox"/>
-                <label for="shadows">Shadows</label>
+                <label for="shadows">阴影</label>
             </div>
 
             <div class="nowrap">
                 <input id="neighborhoods" type="checkbox" checked/>
-                <label for="neighborhoods">Neighborhoods</label>
+                <label for="neighborhoods">居民区</label>
             </div>
+
+            <span><strong>位置信息</strong></span>
+            <div class="nowrap">
+                <input id="position" type="checkbox"/>
+                <label for="position">查看</label>
+            </div>
+            <!-- <span><strong>测量</strong></span>
+            <div class="nowrap">
+                <div class="nowrap">
+                        <button onclick="measureDis()">距离测量</button>
+                        <button onclick="measureArea()">面积测量</button>
+                        <br>
+                        <button onclick="measureHeight()">高度测量</button>
+                        <button onclick="clearAll()">清除</button>
+                </div>
+            </div> -->
             <br>
         </div>
         <div id="loadingIndicator" class="cover">
