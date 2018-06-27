@@ -26,6 +26,8 @@ npm start
 --------------
 ![gif](http://p198u5nbd.bkt.clouddn.com/cesium.gif)
 
+See： [这个GIF](http://p198u5nbd.bkt.clouddn.com/cesium.gif)
+
 
 What's here?
 ------------
